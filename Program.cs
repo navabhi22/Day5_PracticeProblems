@@ -8,7 +8,7 @@ namespace Day5_PracticeProblems
         {
             Console.WriteLine("Day 6 Practice Problems ");
             
-            LeapYear.CheckLeapYear();
+            FlipCoin.FlipTheCoin();
 
         }
     }
