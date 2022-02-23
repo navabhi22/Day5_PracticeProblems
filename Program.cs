@@ -7,9 +7,10 @@ namespace Day5_PracticeProblems
         static void Main(string[] args)
         {
             Console.WriteLine("Day 6 Practice Problems ");
-            
-            FlipCoin.FlipTheCoin();
+            Console.WriteLine("Enter the number to calculate it's Prime Factors");
+            int N = Convert.ToInt32(Console.ReadLine());    
 
+            PrimeFactors.PrimeFactor(N);
         }
     }
 }
