@@ -8,6 +8,9 @@ namespace Day5_PracticeProblems
 {
     public class QuotientAndReminder
     {
+        /// <summary>
+        /// Calculate Quotient and Reminder
+        /// </summary>
         public static void FindQuotientAndReminder(int dividend, int devisor)
         {
             
