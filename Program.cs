@@ -7,7 +7,7 @@ namespace Day5_PracticeProblems
         static void Main(string[] args)
         {
             Console.WriteLine("Day 6 Practice Problems ");
-            VowelOrConsonant.CheckVowelAndConsonant();
+            FindingLargest.FindLaegestNum();
             
             
         }
