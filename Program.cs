@@ -7,11 +7,14 @@ namespace Day5_PracticeProblems
         static void Main(string[] args)
         {
             Console.WriteLine("Day 6 Practice Problems ");
-            Console.WriteLine("Enter the Dividend ");
-            int dividend = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the Devisor ");
-            int devisor = Convert.ToInt32(Console.ReadLine());
-            QuotientAndReminder.FindQuotientAndReminder(dividend, devisor);
+            Console.WriteLine("Enter the number 1 ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the number 2 ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            SwapNumber.SwapNum(num1, num2);
+
+            
         }
     }
 }
