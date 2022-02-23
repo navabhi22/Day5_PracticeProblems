@@ -7,10 +7,11 @@ namespace Day5_PracticeProblems
         static void Main(string[] args)
         {
             Console.WriteLine("Day 6 Practice Problems ");
-            Console.WriteLine("Enter the number to calculate it's Prime Factors");
+            Console.WriteLine("Enter the number ");
             int N = Convert.ToInt32(Console.ReadLine());    
 
-            PrimeFactors.PrimeFactor(N);
+            string Output =EvenOdd.CheckEvenOdd(N);    
+            Console.WriteLine(Output);
         }
     }
 }
