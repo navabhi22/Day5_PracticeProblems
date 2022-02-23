@@ -8,6 +8,9 @@ namespace Day5_PracticeProblems
 {
     public class VowelOrConsonant
     {
+        /// <summary>
+        /// To check for Vowel or Consonants
+        /// </summary>
         public static void CheckVowelAndConsonant()
         {
             Console.WriteLine("Enter a character");
